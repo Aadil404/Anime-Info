@@ -1,0 +1,33 @@
+.popular-anime, .upcoming-anime, .airing-anime {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .card{
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 10px;
+    .name{
+      color: black;
+      font-size: large;
+      font-weight: 600;
+      margin-top: 3px;
+    }
+  }
+
+  .card:hover{
+      color: #111;
+      background: greenyellow;
+      box-shadow: 0 0 100px greenyellow;
+  }
+
+  img {
+    width: 100%;
+    min-height: 390px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
